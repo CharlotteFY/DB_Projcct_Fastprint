@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav-hover-orange:hover {
+  background-color: orange;
+}
+.topnav-hover-red:hover {
+  background-color: #e60000;
+}
+.topnav-hover-blue:hover {
+  background-color: #3366ff;
+}
+.topnav-hover-green:hover {
+  background-color: #00cc00;
+}
+.topnav a.active {
+  background-color: #e60000;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}

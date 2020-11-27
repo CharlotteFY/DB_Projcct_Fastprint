@@ -1,0 +1,8 @@
+1. สร้างฐานข้อมูลใหม่ ชื่ออะไรก็ได้
+2. Import fastprint.sql ลงใน ฐานข้อมูลใหม่
+3. เข้าไปใน folder "fastprint/model/connection.php" แก้ไข ชื่อ $db_name เป็นชื่อฐานข้อมูลใหม่
+4. เสร็จ
+
+User Admin:
+Email:  admin@fastprint.print
+Pwd:    admin@fastprint.print

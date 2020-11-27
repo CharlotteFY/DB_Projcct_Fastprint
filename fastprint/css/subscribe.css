@@ -1,0 +1,78 @@
+body{
+    margin:0;
+    padding: 0;
+    background:white;
+}
+.tab ul{
+    list-style: none;
+    background-color:#444;
+    text-align: left;
+    padding-left: 100px;
+    margin:0;
+}
+.tab li{
+    font-size: 1.2em;
+    line-height: 40px;
+    text-align: left;
+}
+.tab a{
+    text-decoration: none;
+    color:aliceblue;
+    display: block;
+    padding: 15px;
+    border-bottom: 1px solid #444;
+    transition: .3s;
+}
+.point{
+	margin :0;
+	padding-bottom: 50px; 
+	padding-right:100px;
+	text-align : right;
+}
+.tab-right {
+  float: right;
+  margin-top: 10px;
+  color: #FFFF;
+}
+.tab a:hover{
+    background-color: red;
+}
+.tab a.active{
+    background-color: #aaa;
+    color: #444;
+    cursor: default;
+}
+.tab li li{
+    font-size: .8em;
+}
+@media screen and (min-width: 650px) {
+    .tab li{
+        width: 130px;
+        border-bottom: none;
+        height: 80px;
+        line-height: 50px;
+        font-size: 1.4em;
+        display: inline-block;
+        margin-right: -4px;
+    }
+    .tab a{
+        border-bottom: none;
+    }
+    .tab > ul > li {
+        text-align: center;
+    }
+    .tab > ul > li > a{
+        padding-left:  0;
+    }
+    .tab li ul {
+        position: absolute;
+        display: none;
+        width: inherit;
+    }
+    .tab li:hover ul{
+       display: block;
+    }
+    .tab li ul li{
+        display: block;
+    }
+}
